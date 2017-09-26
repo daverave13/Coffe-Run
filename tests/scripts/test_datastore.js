@@ -1,4 +1,4 @@
-var ds = new App.Datastore();
+var ds = new window.App.Datastore();
 console.log(ds.add('m@bond.com', 'tea'));
 console.log(ds.add('james@bond.com', 'eshpressho'));
 console.log(ds.getAll());
